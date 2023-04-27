@@ -2,76 +2,17 @@
   font-family: "Roboto", sans-serif;
   user-select: none;
 }
+/*
 ::-webkit-scrollbar {
   display: none;
 }
+*/
 
-.nav_link {
-  text-decoration: none;
-}
-.nav_link .m-1{
-    letter-spacing: 2px;
-  }
-.box_home {
-  height: 90%;
-}
 .h2_home {
   font-size: 40px;
   letter-spacing: 10px;
   font-weight: 600;
   padding: 128px 0 0;
-}
-
-.box-prices {
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(173, 175, 199, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-}
-
-.box_nav {
-  border-bottom: 1px solid rgb(201, 201, 201);
-  box-shadow: 0 8px 32px 0 rgba(148, 148, 155, 0.514);
-}
-
-.footer_box {
-  display: flex;
-  justify-content: space-around;
-  background-color: rgba(248, 249, 250);
-  color: #000;
-  align-items: center;
-  border: 1px solid rgb(201, 201, 201);
-  box-shadow: 0 8px 32px 0 rgba(148, 148, 155, 0.514);
-  padding: 20px;
-  max-width: 960px;
-  margin: 25px auto;
-}
-
-.footer_box section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.footer_box section span {
-  letter-spacing: 2px;
-}
-
-.footer_box section li {
-  cursor: pointer;
-  list-style: none;
-  text-align: center;
-  letter-spacing: 2px;
-}
-.footer_box section li:hover {
-  color: #929292;
-}
-
-.box_img {
-  height: 100%;
-}
-.img_bot {
-  height: 100%;
-  width: 100%;
 }
 
 .py-2 {
@@ -98,19 +39,7 @@
 .icons {
   font-size: 20px;
   margin: 0 8px;
-}
-
-.box_models {
-  grid-template-columns: repeat(4, 1fr);
-}
-.box_img_card {
-  box-shadow: 0 8px 32px 0 rgba(148, 148, 155, 0.664);
-  transition: all 0.5s ease-in-out;
   cursor: pointer;
-}
-
-.box_img_card:hover {
-  transform: scale(0.9);
 }
 
 .box_drop {
@@ -121,30 +50,35 @@
   text-align: center;
 }
 
-.btn_generate {
-  height: 7vh;
-  width: 15%;
+.py-2 {
+  font-size: 60px;
 }
 
-.box_login {
-  height: 100vh;
+
+
+.d-block p {
+  font-size: 20px;
+}
+.d-block .m-1 {
   display: flex;
   align-items: center;
-  justify-content: center;
+}
+.d-block .m-1 span {
+  text-decoration: none;
+}
+.icons {
+  font-size: 20px;
+  margin: 0 8px;
+  cursor: pointer;
 }
 
-.box_form_login {
-  min-width: 40%;
-  min-height: 90vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: local;
-  background: rgba(255, 255, 255, 0.856);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  box-shadow: 0 8px 32px 0 rgba(173, 175, 199, 0.596);
+.box_drop {
+  text-align: center;
+  border: 2px solid;
+}
+.box_drop_items {
+  text-align: center;
 }
 
-.input_login {
-  width: 80%;
-}
+
+

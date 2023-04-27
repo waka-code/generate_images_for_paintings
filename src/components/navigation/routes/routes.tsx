@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "../../pages/home/home";
-import Models from "../../pages/models/models";
+import Models from "../../pages/models/Models";
 import Prices from "../../pages/prices/Prices";
-import GenerateImage from "../../pages/home/GenerateImage";
+import GenerateImage from "../../pages/generate.image/GenerateImage";
 import Login from "../../useraccess/login/Login";
 import Register from "../../useraccess/register/Register";
 function RoutesPages() {

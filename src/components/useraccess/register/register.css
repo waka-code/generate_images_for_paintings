@@ -1,0 +1,32 @@
+.box_form_register {
+    width: 35%;
+    padding: 10px;
+    margin: 40px 0 0 0;
+    background: rgba(255, 255, 255, 0.856);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgb(201, 201, 201);
+    box-shadow: 0 8px 32px 0 rgba(173, 175, 199, 0.596);
+  }
+  
+  .form_register {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+    padding: 10px;
+  }
+
+  .box_register {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  
+.input_register {
+    width: 80%;
+    height: auto;
+  }

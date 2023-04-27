@@ -4,6 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
 import "../../../App.css";
 import { IoIosLogIn } from "react-icons/io";
+import "./nav.css"
 
 export default function NavRoutes() {
   return (
@@ -27,8 +28,11 @@ export default function NavRoutes() {
             <NavLink className="nav_link" to="/models">
               <Nav.Link href="/">Models</Nav.Link>
             </NavLink>
-            <NavLink className="nav_link" to="/prices">
-              <Nav.Link href="/">Prices</Nav.Link>
+            <NavLink className="nav_link" to="/models">
+              <Nav.Link href="/">About</Nav.Link>
+            </NavLink>
+            <NavLink className="nav_link" to="/models">
+              <Nav.Link href="/">Contact</Nav.Link>
             </NavLink>
           </Nav>
           <Nav>
@@ -37,9 +41,6 @@ export default function NavRoutes() {
                 <IoIosLogIn className="icons" />
                 Login
               </Nav.Link>
-            </NavLink>
-            <NavLink className="nav_link" to="/register">
-              <Nav.Link href="/">Register</Nav.Link>
             </NavLink>
           </Nav>
         </Navbar.Collapse>

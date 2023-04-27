@@ -1,0 +1,11 @@
+.nav_link{
+    text-decoration: none;
+  }
+  .nav_link .m-1 {
+    letter-spacing: 2px;
+  }
+
+  .box_nav {
+    box-shadow: 0 8px 32px 0 rgba(165, 165, 207, 0.377);
+    padding: 20px;
+  }

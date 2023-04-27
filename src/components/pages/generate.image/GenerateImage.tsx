@@ -1,13 +1,12 @@
 import Form from "react-bootstrap/Form";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
-import bils from "../../../assets/bils.png";
 import useGenerateImage from "./useGenerateImage";
-
+import "./generateImage.css"
 function GenerateImage() {
   const { img } = useGenerateImage();
   return (
-    <Form className="container d-flex flex-column justify-content-center align-items-center">
+    <Form className="box_GenerateImage container d-flex flex-column justify-content-center align-items-center">
       <div className="container d-flex w-100 gap-2 m-5 justify-content-center align-items-center">
         <TextField id="filled-basic" label="Search"type="text"  variant="filled" />
         <TextField id="filled-basic" label="width" type="text" variant="filled" />

@@ -1,10 +1,11 @@
 import "../../../App.css";
 import Card from "react-bootstrap/Card";
 import useModel from "./useModel";
+import "./models.css"
 function Models() {
   const { pageNumbers } = useModel();
   return (
-    <div className="box_models d-grid gap-1 align-items-center mt-5 container">
+    <div className="box_models d-grid gap-1 container">
       {pageNumbers.length === 0 ? (
         <h4 className="d-flex align-items-center justify-content-center border">
           Aun no hay imagenes

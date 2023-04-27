@@ -1,0 +1,48 @@
+.box_login {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box_login h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.box_form_login {
+  min-width: 25%;
+  min-height: 40vh;
+  background: rgba(255, 255, 255, 0.856);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  box-shadow: 0 8px 32px 0 rgba(165, 165, 207, 0.377);
+  padding: 15px;
+  margin: 40px auto;
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 10px;
+}
+
+.input_login {
+  width: 80%;
+  height: auto;
+}
+
+.btn_login {
+  width: 45%;
+}
+
+.btn_outlined {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid;
+  width: 50%;
+}
+.btn_outlined span {
+  padding: 2px;
+}
+.btn_outlined img {
+  height: 2vh;
+}

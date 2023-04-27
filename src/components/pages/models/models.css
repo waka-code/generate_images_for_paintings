@@ -1,0 +1,14 @@
+.box_models {
+    grid-template-columns: repeat(4, 1fr);
+    margin: 7em auto;
+  }
+
+  .box_img_card {
+    box-shadow: 0 8px 32px 0 rgba(148, 148, 155, 0.664);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .box_img_card:hover {
+    transform: scale(0.9);
+  }

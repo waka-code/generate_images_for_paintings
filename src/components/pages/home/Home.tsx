@@ -3,10 +3,12 @@ import Button from "react-bootstrap/Button";
 import { NavLink } from "react-router-dom";
 import tres from "../../../assets/3.png";
 import { FcReddit, FcPicture,  } from "react-icons/fc";
+import Prices from "../prices/Prices";
+import "./home.css"
 
 function Home() {
   return (
-    <Container className="mt-5 min-vh-auto">
+    <Container className="box_home_conteneder">
       <div className="box_home d-flex justify-content-between align-items-center ">
         <div className="d-block w-50">
           <span className="font-weight-bold">
@@ -42,6 +44,7 @@ function Home() {
           />
         </div>
       </div>
+      <Prices />
     </Container>
   );
 }
