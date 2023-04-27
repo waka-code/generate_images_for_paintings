@@ -10,7 +10,7 @@ function App() {
         <HashRouter>
           <NavRoutes />
           <RoutesPages />
-        </HashRouter>
+        </HashRouter>{/* */}
       </>
       <div>
         <Footer />
